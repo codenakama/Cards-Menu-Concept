@@ -11,9 +11,11 @@ sections:
   label: Blog
 - type: directory
   path: content
-  label: Content
+  label: Blog
   create: all
   match: "**/*"
+  templates:
+  - blog-post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
